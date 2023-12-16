@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c3e4fd; /* Soft blue background color */
+}
+
+.container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #e6ccb2; /* Light sand border color */
+    border-radius: 10px;
+    background-color: #fdf5e6; /* Light sand container background color */
+}
+
+img.icon {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #5e5e5e; /* Gray text color */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e6ccb2; /* Light sand border color */
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e6ccb2; /* Light sand border color */
+    border-radius: 5px;
+}
+
+#submit {
+    border: none;
+    background-color: #ffb6c1; /* Pastel pink button color */
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #ffb6c1; /* Darker shade of pastel pink on hover */
+}
